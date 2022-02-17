@@ -39,6 +39,7 @@ label{
 }
 
 button {
+  margin-left: 4px;
   border: 1px solid #0080ff;
   background-color: #0099cc;
   color: #ffffff;
