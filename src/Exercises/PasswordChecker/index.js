@@ -45,9 +45,9 @@ const Function = () => {
 export default function Exercise() {
 	return (
 		<>
+			<h1>Ex2: password match</h1>
 			<p className='question'>Ex2: password match
 				Any signup form, password reset form has this functionality. Take two passwords from user. Show error only if both passwords don't match.</p>
-			<h1>Ex2: password match</h1>
 			<Function />
 		</>
 	)
