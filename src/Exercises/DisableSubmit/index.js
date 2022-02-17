@@ -36,7 +36,9 @@ const Function = () => {
 			</label>
 			<div>
 				{passwordChecker()}
-				<button onClick={() => { console.log(password) }}>Submit</button>
+				<button
+					disabled={password !== confirmPassword}
+					onClick={() => { console.log(password) }}>Submit</button>
 			</div>
 		</>
 	)
@@ -45,8 +47,10 @@ const Function = () => {
 export default function Exercise() {
 	return (
 		<>
-			<p className='question'>Ex3: Disable Submit
-				Password should contain a number. Show error if user misses character.
+			<p className='question'>Ex4: Disable Submit
+				Add a submit button to password change field.--
+				Disable submit button if passwords don't match--
+				Clicking on submit should console the password field
 
 			</p>
 			<h1>Ex4: Disable Submit</h1>
