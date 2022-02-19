@@ -5,6 +5,7 @@ import PasswordChecker from './Exercises/PasswordChecker/index.js';
 import AlphanumericPassword from './Exercises/AlphanumericPassword/index.js';
 import DisableSubmit from './Exercises/DisableSubmit/index.js';
 import ShowHide from './Exercises/ShowHide/index.js';
+import DesignerTool from './Exercises/DesignerTool/index.js';
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,8 @@ function App() {
       <DisableSubmit />
       <hr />
       <ShowHide />
+      <hr />
+      <DesignerTool />
       <hr />
     </div>
   );

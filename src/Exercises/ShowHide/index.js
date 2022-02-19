@@ -15,7 +15,7 @@ const Function = () => {
 					type={hidden ? "password" : "text"}
 					placeholder='Enter password'
 				/>
-				<button onClick={() => setHidden(!hidden)}>{hidden ? "Show password" : "Hide password"}</button>
+				<button className='margin-left' onClick={() => setHidden(!hidden)}>{hidden ? "Show password" : "Hide password"}</button>
 			</label>
 
 
