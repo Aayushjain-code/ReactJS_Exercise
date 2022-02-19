@@ -6,6 +6,8 @@ import AlphanumericPassword from './Exercises/AlphanumericPassword/index.js';
 import DisableSubmit from './Exercises/DisableSubmit/index.js';
 import ShowHide from './Exercises/ShowHide/index.js';
 import DesignerTool from './Exercises/DesignerTool/index.js';
+import Header from './Components/Header/Header';
+import Footer from './Components/Footer/Footer';
 
 import {
   BrowserRouter,
@@ -16,8 +18,9 @@ import {
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
 
+      <Header />
       <BrowserRouter>
         <Routes>
           <Route path="/TwitterCounter" element={<TwitterCounter />} />
@@ -28,6 +31,7 @@ function App() {
           <Route path="/DesignerTool" element={<DesignerTool />} />
         </Routes>
       </BrowserRouter>
+      {/* <Footer /> */}
 
     </div>
   );
