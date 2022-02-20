@@ -47,13 +47,13 @@ const Function = () => {
 export default function Exercise() {
 	return (
 		<>
-			<p className='question'>Ex4: Disable Submit
+			<h1>Ex4: Disable Submit</h1>
+			<p className='question  display-block center'>Ex4: Disable Submit
 				Add a submit button to password change field.--
 				Disable submit button if passwords don't match--
 				Clicking on submit should console the password field
 
 			</p>
-			<h1>Ex4: Disable Submit</h1>
 			<Function />
 		</>
 	)

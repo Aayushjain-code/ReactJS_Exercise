@@ -30,6 +30,7 @@ const Header = () => {
 								<Nav.Link href="/DisableSubmit">DisableSubmit</Nav.Link>
 								<Nav.Link href="/ShowHide">ShowHide</Nav.Link>
 								<Nav.Link href="/DesignerTool">DesignerTool</Nav.Link>
+								<Nav.Link href="/AddToCart">AddToCart</Nav.Link>
 
 							</Nav>
 						</Offcanvas.Body>

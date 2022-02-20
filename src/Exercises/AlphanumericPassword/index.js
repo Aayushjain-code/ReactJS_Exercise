@@ -40,11 +40,11 @@ const Function = () => {
 export default function Exercise() {
 	return (
 		<>
-			<p className='question'>Ex3: Alphanumeric Password
+			<h1>Ex3: Alphanumeric Password</h1>
+			<p className='question display-block center'>Ex3: Alphanumeric Password
 				Password should contain a number. Show error if user misses character.
 
 			</p>
-			<h1>Ex3: Alphanumeric Password</h1>
 			<Function />
 		</>
 	)

@@ -27,7 +27,7 @@ export default function Exercise() {
 	return (
 		<>
 			<h1>Ex5: Show Hide</h1>
-			<p className='question'>
+			<p className='question display-block center'>
 				Create a password reset form <br />
 				Put a button show password near the input element.<br />
 				Clicking should show password to the user.<br />
