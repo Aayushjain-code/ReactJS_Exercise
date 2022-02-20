@@ -6,6 +6,11 @@ import AlphanumericPassword from './Exercises/AlphanumericPassword/index.js';
 import DisableSubmit from './Exercises/DisableSubmit/index.js';
 import ShowHide from './Exercises/ShowHide/index.js';
 import DesignerTool from './Exercises/DesignerTool/index.js';
+import AddToCart from './Exercises/AddToCart/index.js';
+
+
+
+
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 
@@ -29,6 +34,7 @@ function App() {
           <Route path="/DisableSubmit" element={<DisableSubmit />} />
           <Route path="/ShowHide" element={<ShowHide />} />
           <Route path="/DesignerTool" element={<DesignerTool />} />
+          <Route path="/AddToCart" element={<AddToCart />} />
         </Routes>
       </BrowserRouter>
       {/* <Footer /> */}
