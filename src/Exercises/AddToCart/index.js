@@ -9,6 +9,11 @@ const Function = () => {
 
 	return (
 		<>
+			<h1>Items:</h1>
+			{/* List of Items */}
+			<h1>Cart:</h1>
+			{/* Cart Items */}
+			{/* Cart Total */}
 
 		</>
 	)
