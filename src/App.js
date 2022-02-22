@@ -12,7 +12,6 @@ import AddToCart from './Exercises/AddToCart/index.js';
 
 
 import Header from './Components/Header/Header';
-import Footer from './Components/Footer/Footer';
 
 import {
   BrowserRouter,
@@ -46,18 +45,3 @@ function App() {
 
 
 export default App;
-{/* <br />
-      <h1>Exercises</h1>
-      <hr />
-      <TwitterCounter />
-      <hr />
-      <PasswordChecker />
-      <hr />
-      <AlphanumericPassword />
-      <hr />
-      <DisableSubmit />
-      <hr />
-      <ShowHide />
-      <hr />
-      <DesignerTool />
-      <hr /> */}
