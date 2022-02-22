@@ -19,6 +19,8 @@ h1 {
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 .question {
   display: flex;
   flex-wrap: wrap;
@@ -39,30 +41,6 @@ label{
   display: block;
   margin: 0.5rem;
 }
-
-button {
-
-  border: 1px solid #0080ff;
-  background-color: #0099cc;
-  color: #ffffff;
-  padding: 5px 10px;
-  border-radius: 5px;
-}
-
-button:hover {
-  border: 1px solid #0099cc;
-  background-color: #00aacc;
-  color: #ffffff;
-  padding: 5px 10px;
-}
-
-button:disabled,
-button[disabled] {
-  border: 1px solid #999999;
-  background-color: #cccccc;
-  color: #666666;
-}
-
 
 /*
 div {
