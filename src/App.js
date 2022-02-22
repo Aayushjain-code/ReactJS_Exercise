@@ -7,8 +7,8 @@ import DisableSubmit from './Exercises/DisableSubmit/index.js';
 import ShowHide from './Exercises/ShowHide/index.js';
 import DesignerTool from './Exercises/DesignerTool/index.js';
 import AddToCart from './Exercises/AddToCart/index.js';
-
-
+import ToastExample from './Exercises/ToastExample/index.js';
+import SwitchTabs from './Exercises/SwitchTabs/index.js';
 
 
 import Header from './Components/Header/Header';
@@ -34,6 +34,8 @@ function App() {
           <Route path="/ShowHide" element={<ShowHide />} />
           <Route path="/DesignerTool" element={<DesignerTool />} />
           <Route path="/AddToCart" element={<AddToCart />} />
+          <Route path="/ToastExample" element={<ToastExample />} />
+          <Route path="/SwitchTabs" element={<SwitchTabs />} />
         </Routes>
       </BrowserRouter>
       {/* <Footer /> */}
