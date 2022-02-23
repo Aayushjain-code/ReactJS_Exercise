@@ -9,6 +9,8 @@ import DesignerTool from './Exercises/DesignerTool/index.js';
 import AddToCart from './Exercises/AddToCart/index.js';
 import ToastExample from './Exercises/ToastExample/index.js';
 import SwitchTabs from './Exercises/SwitchTabs/index.js';
+import ToDoListTask from './Exercises/ToDoListTask/index.js';
+import CheckList from './Exercises/CheckList/index.js';
 
 
 import Header from './Components/Header/Header';
@@ -23,7 +25,7 @@ import {
 function App() {
   return (
     <div className="App" >
-
+      {/* <ToDoListTask /> */}
       <Header />
       <BrowserRouter>
         <Routes>
@@ -36,6 +38,8 @@ function App() {
           <Route path="/AddToCart" element={<AddToCart />} />
           <Route path="/ToastExample" element={<ToastExample />} />
           <Route path="/SwitchTabs" element={<SwitchTabs />} />
+          <Route path="/ToDoListTask" element={<ToDoListTask />} />
+          <Route path="/CheckList" element={<CheckList />} />
         </Routes>
       </BrowserRouter>
       {/* <Footer /> */}

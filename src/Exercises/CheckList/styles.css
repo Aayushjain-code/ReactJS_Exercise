@@ -1,0 +1,57 @@
+
+.app{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.eachItem{
+margin: 0.5rem;
+}
+
+
+ul {
+	list-style-type: none;
+	list-style: none;
+}
+
+.item-name{
+border: 1px solid black;
+padding: 0.2rem;
+}
+.displayArea{
+	margin-top: 1rem;
+}
+
+.toastContainer{
+	background-color: #7c7878;
+	color: white;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	width: 30%;
+	margin: auto;
+}
+.toastButton{
+	background-color: #00ffaa;
+	display: inline-block;
+	color: rgb(0, 0, 0);
+	border-radius: 0.3rem;
+	margin: auto;
+}
+
+.Error {
+	background-color: red;
+	color: black;
+}
+
+.Warning {
+	background-color: rgb(238, 255, 0);
+	color: darkgray;
+}
+
+.Success {
+	background-color: lightgreen;
+	color: black;
+}
