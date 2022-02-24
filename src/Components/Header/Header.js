@@ -34,7 +34,8 @@ const Header = () => {
 								<Nav.Link href="/SwitchTabs">SwitchTabs</Nav.Link>
 								<Nav.Link href="/ToastExample">ToastExample</Nav.Link>
 								<Nav.Link href="/ToDoListTask">ToDoListTask</Nav.Link>
-								<Nav.Link href="/CheckList">CheckList</Nav.Link>
+								<Nav.Link href="/DarkLight">DarkLight</Nav.Link>
+								<Nav.Link href="/LikeList">LikeList</Nav.Link>
 
 							</Nav>
 						</Offcanvas.Body>

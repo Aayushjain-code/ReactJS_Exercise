@@ -10,7 +10,8 @@ import AddToCart from './Exercises/AddToCart/index.js';
 import ToastExample from './Exercises/ToastExample/index.js';
 import SwitchTabs from './Exercises/SwitchTabs/index.js';
 import ToDoListTask from './Exercises/ToDoListTask/index.js';
-import CheckList from './Exercises/CheckList/index.js';
+import DarkLight from './Exercises/DarkLight/index.js';
+import LikeList from './Exercises/LikeList/index.js';
 
 
 import Header from './Components/Header/Header';
@@ -39,7 +40,8 @@ function App() {
           <Route path="/ToastExample" element={<ToastExample />} />
           <Route path="/SwitchTabs" element={<SwitchTabs />} />
           <Route path="/ToDoListTask" element={<ToDoListTask />} />
-          <Route path="/CheckList" element={<CheckList />} />
+          <Route path="/DarkLight" element={<DarkLight />} />
+          <Route path="/LikeList" element={<LikeList />} />
         </Routes>
       </BrowserRouter>
       {/* <Footer /> */}
